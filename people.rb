@@ -43,10 +43,15 @@ student_cristina = Student.new("Cristina")
 student_cristina.greeting
 
 
-# teacher_chris.teach
-# student_cristina.learn
+teacher_chris.teach
+student_cristina.learn
 
 
 
 #student_cristina.teach
 
+#The Student class cannot access the teach method because the
+#teach method is in the Instructor class.  This means that, since 
+#nothing has been done to give the Student class access to the
+#Instructor class, as far as the Student class can tell, the teach
+#method doesn't exist.
