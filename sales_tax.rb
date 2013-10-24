@@ -110,9 +110,9 @@ end
 
 
 #Firt input
-input1_a = Product.new(1, "book at", 12.49) 
-input1_b = Product.new(1, "music CD at", 14.99)
-input1_c = Product.new(1, "chocolate bar at", 0.85)
+input1_a = Product.new(1, "book", 12.49) 
+input1_b = Product.new(1, "music CD", 14.99)
+input1_c = Product.new(1, "chocolate bar", 0.85)
 
 puts input1_a.print_items
 puts input1_b.print_items
@@ -127,8 +127,8 @@ puts "--------"
 
 
 #Second input
-input2_a = Product.new(1, "imported box of chocolates at", 10.00) 
-input2_b = Product.new(1, "imported bottle of perfume at", 47.50)
+input2_a = Product.new(1, "imported box of chocolates", 10.00) 
+input2_b = Product.new(1, "imported bottle of perfume", 47.50)
 
 
 puts input2_a.print_items
